@@ -7,17 +7,16 @@
   margin-bottom: 40px;
   max-width: 1200px;
   padding-left: 20px;
-  margin-right: 20px;
+  padding-right: 20px;
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .bicicletas-lista ul{
   display: flex;
   gap: 40px;
-  padding: 0 20px 20px 0;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
@@ -25,6 +24,7 @@
 }
 
 .bicicletas-lista li{
+  flex: 1;
   min-width: 280px;
 }
 
@@ -49,7 +49,7 @@
   width: 12px;
   display: inline-block;
   margin-right: 8px;
-  transform: width 0.3s ;
+  transition: width 0.3s ;
 }
 
 .bicicletas-lista a:hover h3::before{
