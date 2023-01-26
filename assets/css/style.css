@@ -15,5 +15,7 @@
 @import url('./seguros/seguros.css');
 
 @import url('./paginas/termos.css');
-@import url('./paginas/bicicletas.css');
+@import url('./paginas/bicicletas/bicicletas.css');
 @import url('./paginas/seguros.css');
+
+@import url('./paginas/bicicletas/bicicletaNimbusStark.css');
